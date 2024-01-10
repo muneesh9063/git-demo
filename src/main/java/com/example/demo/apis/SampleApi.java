@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleApi {
     @GetMapping
     public ResponseEntity<String> get(){
-        return ResponseEntity.ok("This is a Sample Branch");
+        return ResponseEntity.ok("This is a change in Sample Branch");
+
     }
 }
