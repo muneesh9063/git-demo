@@ -6,5 +6,5 @@ public interface BookInteface {
     void DeleteById(int id);
     void UpdateById(int id);
     void PrintSome(int start,int end);
-
+    void print();
 }
